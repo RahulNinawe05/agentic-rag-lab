@@ -3,7 +3,7 @@ from src.vectorstore import get_vectorstore
 from src.graph import build_graph
 
 if __name__ == "__main__":
-    pdf_path = "D:\\Againts\\attention.pdf"
+    pdf_path = "D:\\agentic-rag-lab\\attention.pdf"
 
     chunks    = load_and_split(pdf_path)
     vs        = get_vectorstore(chunks)
