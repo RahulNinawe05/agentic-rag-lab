@@ -1,0 +1,17 @@
+# Environment
+.env
+.myvenvr/
+
+# Database
+chroma_db/
+
+# PDF (personal/private file)
+attention.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
