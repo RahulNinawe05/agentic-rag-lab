@@ -10,7 +10,7 @@ if __name__ == "__main__":
     retriever = vs.as_retriever(search_type="mmr", search_kwargs={"k": 4, "fetch_k": 20})
 
     graph  = build_graph(retriever)
-    result = graph.invoke({"question": "what is Scaled Dot-Product Attention & what We call our particular attention"})
+    result = graph.invoke({"question": "What is the exact BLEU score of the Transformer (big) model on WMT 2014 English-to-German AND English-to-French translation tasks, and how many training steps were used?"})
 
     if result.get("web_search_needed"):
         print("*" * 50)
