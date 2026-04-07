@@ -8,3 +8,4 @@ dotenv
 chromadb
 sentence-transformers
 chromadb
+langgraph
